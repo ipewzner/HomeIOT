@@ -171,8 +171,8 @@ void loop() {
 #define WLAN_PASS       "85208520"
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                   // use 8883 for SSL
-#define AIO_USERNAME    "ipewzner"
-#define AIO_KEY         "aio_jIXM80YBmkPqcUurOqDCKF8uwoxC"
+#define AIO_USERNAME    ""
+#define AIO_KEY         ""
 #define NAME            "/topics/bed1"
 
 // Create an ESP8266 WiFiClient class to connect to the MQTT server. or... use WiFiClientSecure for SSL
