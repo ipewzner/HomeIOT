@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Web Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        function showCount() {
+            var count = document.getElementById("slider").value;
+            console.log("meter position : " + count);
+            $.ajax({
+                method: "POST",
+                url: 'http://localhost:5000/volume',
+                data: { val: count },
+            })
+                .done(function (msg) {
+                    // optional callback stuff if needed
+                    // alert( "Data Saved: " + msg );
+                });
+        }
+
+    </script>
+</head>
+
+<body>
+    <div>
+        <input type="range" value="0" id="slider" step="10" min="0" max="250" onchange="showCount()" />
+    </div>
+</body>
+
+</html>
