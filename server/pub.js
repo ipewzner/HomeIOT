@@ -1,4 +1,4 @@
-// MQTT publisher
+// MQTT publisher for testing
 import * as mqtt from "mqtt";
 const client = mqtt.connect('http://mqttServer.local:1883',{clientId:"mqttjs02"});
 const topic = '/iot/table';
