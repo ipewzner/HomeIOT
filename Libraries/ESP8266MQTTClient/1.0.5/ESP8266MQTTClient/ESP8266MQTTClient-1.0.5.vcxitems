@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{ab6f557c-82d1-4dc5-948c-8efb01892529}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\ESP8266MQTTClient.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\MQTTTransport.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\mqtt_msg.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\mqtt_outbox.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\uri_parser.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\ESP8266MQTTClient.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\MQTTTransport.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\mqtt_msg.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\mqtt_outbox.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\uri_parser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)LICENSE" />
+<None Include="$(MSBuildThisFileDirectory)README.md" />
+  </ItemGroup>
+</Project>

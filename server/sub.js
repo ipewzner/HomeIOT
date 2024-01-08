@@ -1,6 +1,7 @@
 // MQTT subscriber for testing
 import * as mqtt from "mqtt"
-const client = mqtt.connect('http://mqttServer.local:1883',{clientId:"mqttjs044"});
+//const client = mqtt.connect('http://mqttServer.local:1883',{clientId:"mqttjs044"});
+const client = mqtt.connect('mqtt://localhost:1883',{clientId:"mqttjs044"});
 
 const topic = '/iot/table';
 

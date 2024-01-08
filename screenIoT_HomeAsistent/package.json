@@ -1,0 +1,17 @@
+{
+  "name": "screeniot_homeasistent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sub.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "brightness": "^3.0.0",
+    "mqtt": "^4.3.7"
+  }
+}

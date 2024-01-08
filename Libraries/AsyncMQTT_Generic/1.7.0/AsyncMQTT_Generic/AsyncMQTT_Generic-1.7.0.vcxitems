@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{2f53134b-ba96-4add-9095-90514eaeef83}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\ConnAckPacket.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\PingRespPacket.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\PubAckPacket.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\PubCompPacket.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\PublishPacket.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\PubRecPacket.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\PubRelPacket.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\SubAckPacket.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\UnsubAckPacket.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\Connect.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\Disconn.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\OutPacket.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\PingReq.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\PubAck.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\Publish.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\Subscribe.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\Unsubscribe.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient_Generic.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient_Generic_Debug.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient_Generic_Impl.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqtt_Generic.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Callbacks.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\DisconnectReasons.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Errors.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Flags.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Helpers.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\MessageProperties.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\ParsingInformation.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Storage.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\ConnAckPacket.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Packet.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\PingRespPacket.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\PubAckPacket.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\PubCompPacket.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\PublishPacket.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\PubRecPacket.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\PubRelPacket.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\SubAckPacket.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\UnsubAckPacket.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\Connect.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\Disconn.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\OutPacket.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\PingReq.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\PubAck.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\Publish.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\Subscribe.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncMqttClient\Packets\Out\Unsubscribe.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)keywords.txt" />
+<Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)changelog.md" />
+<None Include="$(MSBuildThisFileDirectory)CONTRIBUTING.md" />
+<None Include="$(MSBuildThisFileDirectory)library.json" />
+<None Include="$(MSBuildThisFileDirectory)LICENSE" />
+<None Include="$(MSBuildThisFileDirectory)README.md" />
+  </ItemGroup>
+</Project>

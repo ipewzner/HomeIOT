@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HomeIOT", "HomeIOT\HomeIOT.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
 EndProject
@@ -11,35 +11,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_MQTT_Library-2.0.0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WiFiManager-2.0.11-beta", "Libraries\WiFiManager\2.0.11-beta\WiFiManager\WiFiManager-2.0.11-beta.vcxitems", "{031422C2-DC0E-410B-92AA-2216028CEB40}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArduinoJson-6.19.1", "Libraries\ArduinoJson\6.19.1\ArduinoJson\ArduinoJson-6.19.1.vcxitems", "{729E043E-C16A-474A-AAA3-4556740B146B}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArduinoMqttClient-0.1.5", "Libraries\ArduinoMqttClient\0.1.5\ArduinoMqttClient\ArduinoMqttClient-0.1.5.vcxitems", "{82D5BDF9-B04C-44C3-B1F1-0D0F43EEC8FA}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP8266HTTPClient-1.2", "Libraries\ESP8266HTTPClient\1.2\ESP8266HTTPClient\ESP8266HTTPClient-1.2.vcxitems", "{DEC91F0D-686D-4DAF-A516-1568F4DB1121}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP8266-ping-2.0.1", "Libraries\ESP8266-ping\2.0.1\ESP8266-ping\ESP8266-ping-2.0.1.vcxitems", "{3E1F1FC5-3D9F-4C4D-AD22-2EA180A3BEA3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP8266mDNS-1.2", "Libraries\ESP8266mDNS\1.2\ESP8266mDNS\ESP8266mDNS-1.2.vcxitems", "{4B9DAB7D-48E3-415E-93D2-A38CA3F07BD9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PubSubClient-2.8", "Libraries\PubSubClient\2.8\PubSubClient\PubSubClient-2.8.vcxitems", "{F5E9ED73-E707-4D67-82CD-9A5257A0DFDB}"
+EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Libraries\WiFiManager\2.0.11-beta\WiFiManager\WiFiManager-2.0.11-beta.vcxitems*{031422c2-dc0e-410b-92aa-2216028ceb40}*SharedItemsImports = 9
-		Libraries\Adafruit_MQTT_Library\2.0.0\Adafruit_MQTT_Library\Adafruit_MQTT_Library-2.0.0.vcxitems*{2194f73b-118f-4097-afea-ca1b96ae8cdf}*SharedItemsImports = 9
-		Libraries\ESP8266WiFi\1.0\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems*{2f4b3b4c-ea87-4800-9e2e-f284009bb8af}*SharedItemsImports = 9
-		Libraries\ESP8266-ping\2.0.1\ESP8266-ping\ESP8266-ping-2.0.1.vcxitems*{3e1f1fc5-3d9f-4c4d-ad22-2ea180a3bea3}*SharedItemsImports = 9
-		Libraries\ESP8266mDNS\1.2\ESP8266mDNS\ESP8266mDNS-1.2.vcxitems*{4b9dab7d-48e3-415e-93d2-a38ca3f07bd9}*SharedItemsImports = 9
-		Libraries\ArduinoJson\6.19.1\ArduinoJson\ArduinoJson-6.19.1.vcxitems*{729e043e-c16a-474a-aaa3-4556740b146b}*SharedItemsImports = 9
-		Libraries\ArduinoMqttClient\0.1.5\ArduinoMqttClient\ArduinoMqttClient-0.1.5.vcxitems*{82d5bdf9-b04c-44c3-b1f1-0d0f43eec8fa}*SharedItemsImports = 9
-		Libraries\Adafruit_MQTT_Library\2.0.0\Adafruit_MQTT_Library\Adafruit_MQTT_Library-2.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
-		Libraries\ArduinoJson\6.19.1\ArduinoJson\ArduinoJson-6.19.1.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
-		Libraries\ArduinoMqttClient\0.1.5\ArduinoMqttClient\ArduinoMqttClient-0.1.5.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
-		Libraries\ESP8266-ping\2.0.1\ESP8266-ping\ESP8266-ping-2.0.1.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
-		Libraries\ESP8266HTTPClient\1.2\ESP8266HTTPClient\ESP8266HTTPClient-1.2.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
-		Libraries\ESP8266mDNS\1.2\ESP8266mDNS\ESP8266mDNS-1.2.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
-		Libraries\ESP8266WiFi\1.0\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
-		Libraries\WiFiManager\2.0.11-beta\WiFiManager\WiFiManager-2.0.11-beta.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
-		Libraries\ESP8266HTTPClient\1.2\ESP8266HTTPClient\ESP8266HTTPClient-1.2.vcxitems*{dec91f0d-686d-4daf-a516-1568f4db1121}*SharedItemsImports = 9
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
@@ -55,5 +35,20 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {078384CC-4F9E-4CC2-8156-BB01DE540EBE}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\WiFiManager\2.0.11-beta\WiFiManager\WiFiManager-2.0.11-beta.vcxitems*{031422c2-dc0e-410b-92aa-2216028ceb40}*SharedItemsImports = 9
+		Libraries\Adafruit_MQTT_Library\2.0.0\Adafruit_MQTT_Library\Adafruit_MQTT_Library-2.0.0.vcxitems*{2194f73b-118f-4097-afea-ca1b96ae8cdf}*SharedItemsImports = 9
+		Libraries\ESP8266WiFi\1.0\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems*{2f4b3b4c-ea87-4800-9e2e-f284009bb8af}*SharedItemsImports = 9
+		Libraries\ESP8266-ping\2.0.1\ESP8266-ping\ESP8266-ping-2.0.1.vcxitems*{3e1f1fc5-3d9f-4c4d-ad22-2ea180a3bea3}*SharedItemsImports = 9
+		Libraries\ESP8266mDNS\1.2\ESP8266mDNS\ESP8266mDNS-1.2.vcxitems*{4b9dab7d-48e3-415e-93d2-a38ca3f07bd9}*SharedItemsImports = 9
+		Libraries\Adafruit_MQTT_Library\2.0.0\Adafruit_MQTT_Library\Adafruit_MQTT_Library-2.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\ESP8266-ping\2.0.1\ESP8266-ping\ESP8266-ping-2.0.1.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\ESP8266mDNS\1.2\ESP8266mDNS\ESP8266mDNS-1.2.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\ESP8266WiFi\1.0\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\PubSubClient\2.8\PubSubClient\PubSubClient-2.8.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\WiFiManager\2.0.11-beta\WiFiManager\WiFiManager-2.0.11-beta.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\ESP8266HTTPClient\1.2\ESP8266HTTPClient\ESP8266HTTPClient-1.2.vcxitems*{dec91f0d-686d-4daf-a516-1568f4db1121}*SharedItemsImports = 9
+		Libraries\PubSubClient\2.8\PubSubClient\PubSubClient-2.8.vcxitems*{f5e9ed73-e707-4d67-82cd-9a5257a0dfdb}*SharedItemsImports = 9
 	EndGlobalSection
 EndGlobal

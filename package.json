@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "aedes": "^0.50.1",
+    "brightness": "^3.0.0",
+    "mqtt": "^5.3.4",
+    "net": "^1.0.2"
+  }
+}
